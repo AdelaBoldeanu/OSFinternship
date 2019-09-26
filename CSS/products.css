@@ -1,0 +1,87 @@
+.shopBy, .firstCol{
+    display: none;
+}
+
+
+/*PRODUCTS*/
+@media (min-width:495px){
+
+
+.btn-lg{
+    font-size: 1vw;
+}
+.button{
+    margin-right: 10px;
+    padding: 3px 7px;
+    border-width: 0;
+}
+.btn-lg+.dropdown-toggle-split{
+    padding: 0;
+}
+.shop{
+    background-color: #2e2e2e;
+}
+.shopBy{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+.textShop{
+    max-width:70px; 
+    margin-right: 35px;
+    padding-top: 6px;
+    color: white;
+}
+.btn-secondary{
+    background-color: black;
+    border-color: black;
+}
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-secondary.dropdown-toggle{
+    border-color: black;
+    background-color: black;
+}
+.dropdown-menu.show a:hover {
+    background-color: rgba(0,0,0,0.3)
+}
+.firstCol{
+    display: flex;
+}
+.filteBtn{
+    padding: 0;
+    width: 30%;
+    background-color: transparent;
+    color: #bcb5a7;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.arrowBtn{
+    width: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: #bcb5a7;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.block, .list{
+    width: 7%;
+    height: 50%;
+    margin-right: 5px;
+}
+.filters{
+    padding-top: 10px;
+}
+.pProducts{
+    font-size: 1.3vw;
+    padding-top: 5px;
+}
+.textProducts, .viewAs{
+    margin-right: 10px;
+}
+.filters2{
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 0;
+    max-width: 80%;
+}
+}
